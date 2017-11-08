@@ -21,7 +21,7 @@ import static javafx.scene.input.KeyCode.R;
 
 public class MyServlet extends HttpServlet {
     private final String VALID_USER ="jsd_jesse@hotmail.com:123";
-    private String[] lista ={"jsd_jesse@hotmail.com:123","jessedias@hotmail.com:123"} ;
+
 
 
     @Override
