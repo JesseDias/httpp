@@ -12,6 +12,8 @@ import com.koushikdutta.ion.Ion;
 
 import org.json.JSONObject;
 
+import java.io.IOException;
+
 public class MainActivity extends AppCompatActivity {
 
     private EditText usuario;
@@ -29,9 +31,17 @@ public class MainActivity extends AppCompatActivity {
         senha = (EditText) findViewById(R.id.senha);
 
 
-      token token = new token();
+        token token = null;
+        try {
+            token = new token();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         String meutoken = token.gerarToken.toString();
         Log.d("meutoken",meutoken);
+        String teste = token.email.toString();
+        Log.d("meutoken",teste);
+
     }
 
 
