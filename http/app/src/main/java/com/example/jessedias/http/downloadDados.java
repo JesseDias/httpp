@@ -42,7 +42,6 @@ public class downloadDados extends AsyncTask<Void,Void,String>{
             InputStream inputStream = urlConnection.getInputStream();
 
             reader = new BufferedReader(new InputStreamReader(inputStream));
-            Log.d("reader",reader.toString());
             String linha;
             StringBuffer buffer = new StringBuffer();
             while((linha = reader.readLine()) != null) {
