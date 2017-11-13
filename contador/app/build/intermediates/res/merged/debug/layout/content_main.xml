@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main" tools:context=".MainActivity"
+    android:background="#000000">
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="0"
+        android:id="@+id/homens"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="56dp"
+        android:onClick="clicaH"
+        android:background="#3700ff" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="0"
+        android:id="@+id/mulheres"
+        android:onClick="clicaM"
+        android:layout_alignTop="@+id/homens"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#c5ff00d5" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:textSize="30px"
+        android:text=" "
+        android:id="@+id/texto"
+        android:background="@color/accent_material_light"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:autoText="false" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="reset"
+        android:id="@+id/reset"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="clicaR"
+        android:background="#ff0000" />
+</RelativeLayout>
+<!-- From: file:/C:/Users/jsd_j/AndroidStudioProjects/contador/app/src/main/res/layout/content_main.xml -->

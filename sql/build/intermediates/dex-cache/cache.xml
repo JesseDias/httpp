@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\jsd_j\AndroidStudioProjects\sql\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="26.0.1"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\Users\jsd_j\AndroidStudioProjects\sql\app\build\intermediates\pre-dexed\debug\classes-7890ff4e8e0e530133ae8368e12c794ea3bfc338.jar" />
+    </item>
+    <item
+        jar="C:\Users\jsd_j\AndroidStudioProjects\sql\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="26.0.1"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="C:\Users\jsd_j\AndroidStudioProjects\sql\app\build\intermediates\pre-dexed\debug\classes-40c9fe8e9168cece586a454de3a76638c498cac8.jar" />
+    </item>
+    <item
+        jar="C:\Users\jsd_j\AndroidStudioProjects\sql\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="26.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\jsd_j\AndroidStudioProjects\sql\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0-696e897b58bb4b9dd360eb3f205fa2f002622bb2.jar" />
+    </item>
+    <item
+        jar="C:\Users\jsd_j\AndroidStudioProjects\sql\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="26.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\jsd_j\AndroidStudioProjects\sql\app\build\intermediates\pre-dexed\debug\classes-9418db9d7e0d6c330f16db62b47b2ccc47f568eb.jar" />
+    </item>
+    <item
+        jar="C:\Users\jsd_j\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="26.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\jsd_j\AndroidStudioProjects\sql\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0-42fdc76cde7c0aa8cb99fa9f788d0d27471fad72.jar" />
+    </item>
+    <item
+        jar="C:\Users\jsd_j\AndroidStudioProjects\sql\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="26.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\jsd_j\AndroidStudioProjects\sql\app\build\intermediates\pre-dexed\debug\classes-9509607076a78dfcd4d1b48f6578ae25be189f34.jar" />
+    </item>
+    <item
+        jar="C:\Users\jsd_j\AndroidStudioProjects\sql\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="26.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\jsd_j\AndroidStudioProjects\sql\app\build\intermediates\pre-dexed\debug\classes-3a782c79a13762da73f822b595355cda6118b975.jar" />
+    </item>
+    <item
+        jar="C:\Users\jsd_j\AndroidStudioProjects\sql\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="26.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\jsd_j\AndroidStudioProjects\sql\app\build\intermediates\pre-dexed\debug\classes-194b2b8b934da3a551023696a379d71b57dcde1f.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Ontem fui um cão. Hoje sou um cão. Amanhã provavelmente vou continuar a ser um cão. *Suspiros*. Há tão pouca esperança de avanço."
+        android:id="@+id/informacao"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="voltar"
+        android:id="@+id/voltar"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="58dp" />
+</RelativeLayout>
+<!-- From: file:/C:/Users/jsd_j/AndroidStudioProjects/minhalista/app/src/main/res/layout/segundacelua.xml -->
