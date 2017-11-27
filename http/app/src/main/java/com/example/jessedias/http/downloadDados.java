@@ -76,7 +76,8 @@ public class downloadDados extends AsyncTask<Void,Void,String>{
             int id = jasonOjet.getInt("id");
             String decricao = jasonOjet.getString("description");
             String id2 = Integer.toString(id);
-            Log.d("dadosId",id2);
+            meusDados meusDados = new meusDados(decricao,id2);
+
 
             return;
 

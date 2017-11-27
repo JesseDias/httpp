@@ -8,20 +8,16 @@ import java.net.URL;
 
 public class MainActivity extends AppCompatActivity {
 
-    private String meusDados;
+    private meusDados meusDados;
+
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-   downloadDados downloadDados =(downloadDados) new downloadDados().execute();
-
-
-        Log.d("dados",meusDados);
+        downloadDados downloadDados = (downloadDados) new downloadDados().execute();
 
 
-
-    }
+            }
 }

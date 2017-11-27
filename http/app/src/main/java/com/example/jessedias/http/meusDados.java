@@ -2,21 +2,28 @@ package com.example.jessedias.http;
 
 import android.util.Log;
 
+import java.util.ArrayList;
+
 /**
  * Created by jessedias on 06/11/2017.
  */
 
 public class meusDados {
 
-    private String nome;
 
-    public meusDados(String nome){
-        this.nome=nome;
-        Log.d("nome",nome);
-    }
+    private  String dados;
+    private  String dados2;
 
-    public String getNome(){
+    public meusDados(String descricao,String nome) {
+       this.dados=nome;
+        this.dados2=descricao;
+        Log.d("dadosDescricao",dados2);
+        Log.d("dadosNome",dados);
+        }
 
-        return nome;
+
+    public String getDados(){
+
+        return dados;
     }
 }
